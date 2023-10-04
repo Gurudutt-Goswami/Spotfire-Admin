@@ -94,9 +94,14 @@ You can find the ```nm setup.exe``` file server setup files
    Restart the server & login with your admin credential, ideally you should able to see all services.<br>
    <img width="556" alt="services" src="https://github.com/Gurudutt-Goswami/Spotfire-Admin/assets/86184439/f6e84a77-206f-4b38-89c0-a1071850cac4">
 
-3) Server deployment
-4) Analyst installation
-5) Node manager installation
+3) Server deployment<br>
+   a) pre-requisite is to install spotfire server<Br>
+   b) Login into Spotfire server to deploy packages ,add ones etc.<br>
+   c) Go to ```Deployment and packages``` > click on add packages & browse ```(generally the .sdn file)```<br>
+   d) After upload ```Validate area``` and then click on ```Save area```.<br>
+   Note: This deployment area can be different for different groups.
+5) Analyst installation
+6) Node manager installation
 
 
 ### LTS and Mainstream
