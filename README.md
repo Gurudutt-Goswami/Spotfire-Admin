@@ -22,13 +22,13 @@ For any other document refer
 Note : The NTLM authentication method reuses the identity information associated with the user's current Windows session. 
 1) Spotfire server front end port : 80
 2) Backend registration port : 9080
-3) Backend communication port : 9443 
+3) Backend communication port : 9443 <br>
 <img width="512" alt="Screenshot 2023-10-04 183630" src="https://github.com/Gurudutt-Goswami/Spotfire-Admin/assets/86184439/678041cb-4546-4efa-bd97-5d2b1c01ba20"><br>
 
 Note : Open configuration tool for fresh installation.<br>
 Upgrade tool can also be located under Spotfire server installation directory > Tools > Upgrade Folder 
 
-File Location
+File Location<Br>
 <img width="526" alt="file location" src="https://github.com/Gurudutt-Goswami/Spotfire-Admin/assets/86184439/b42aeaa0-f2d9-4af2-96ae-563b89c9d9b3"><Br>
 <img width="179" alt="database things" src="https://github.com/Gurudutt-Goswami/Spotfire-Admin/assets/86184439/7aa30dbb-592c-4c40-8900-a7fac09b9c03"><br>
 <img width="533" alt="database things 2" src="https://github.com/Gurudutt-Goswami/Spotfire-Admin/assets/86184439/05a320fd-ade0-4702-b37d-35ea6b8cad71"><br>
