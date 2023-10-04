@@ -55,9 +55,9 @@ This node manager installations enables following things in Spotfire env.
 You can find the ```nm setup.exe``` file server setup files 
 1) After accepting the license you need to set ports.
 2) If the Spotfire server machine & this nm setup machine is same change the port numbers.
-<img width="345" alt="node manager" src="https://github.com/Gurudutt-Goswami/Spotfire-Admin/assets/86184439/2dd43ea0-ff3f-48df-9c9f-eb1a67a3bb0e">  
-3) After that you need to define the server name (ie., its FQDN (full qualified domain name) or you can server ip.
-<img width="502" alt="ports " src="https://github.com/Gurudutt-Goswami/Spotfire-Admin/assets/86184439/b67b7bd2-8a37-4205-9e2f-bf4affbe4839">
+<img width="345" alt="node manager" src="https://github.com/Gurudutt-Goswami/Spotfire-Admin/assets/86184439/2dd43ea0-ff3f-48df-9c9f-eb1a67a3bb0e"> <br>
+3) After that you need to define the server name (ie., its FQDN (full qualified domain name) or you can server ip. <Br>
+<img width="502" alt="ports " src="https://github.com/Gurudutt-Goswami/Spotfire-Admin/assets/86184439/b67b7bd2-8a37-4205-9e2f-bf4affbe4839"> <br>
 4) Make sure network names are correct & then click on install
 <img width="680" alt="network names" src="https://github.com/Gurudutt-Goswami/Spotfire-Admin/assets/86184439/3a5dd81f-0024-4a45-b2d7-5f39224cbed6">
 5) If this is a nm upgrade then open upgrade tool or else for the fresh setup you can exit.
