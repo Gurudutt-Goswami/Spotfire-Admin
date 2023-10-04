@@ -23,15 +23,15 @@ Note : The NTLM authentication method reuses the identity information associated
 1) Spotfire server front end port : 80
 2) Backend registration port : 9080
 3) Backend communication port : 9443 
-<img width="512" alt="Screenshot 2023-10-04 183630" src="https://github.com/Gurudutt-Goswami/Spotfire-Admin/assets/86184439/678041cb-4546-4efa-bd97-5d2b1c01ba20">
+<img width="512" alt="Screenshot 2023-10-04 183630" src="https://github.com/Gurudutt-Goswami/Spotfire-Admin/assets/86184439/678041cb-4546-4efa-bd97-5d2b1c01ba20"><br>
 
-Note : Open configuration tool for fresh installation.
+Note : Open configuration tool for fresh installation.<br>
 Upgrade tool can also be located under Spotfire server installation directory > Tools > Upgrade Folder 
 
 File Location
-<img width="526" alt="file location" src="https://github.com/Gurudutt-Goswami/Spotfire-Admin/assets/86184439/b42aeaa0-f2d9-4af2-96ae-563b89c9d9b3">
-<img width="179" alt="database things" src="https://github.com/Gurudutt-Goswami/Spotfire-Admin/assets/86184439/7aa30dbb-592c-4c40-8900-a7fac09b9c03">
-<img width="533" alt="database things 2" src="https://github.com/Gurudutt-Goswami/Spotfire-Admin/assets/86184439/05a320fd-ade0-4702-b37d-35ea6b8cad71">
+<img width="526" alt="file location" src="https://github.com/Gurudutt-Goswami/Spotfire-Admin/assets/86184439/b42aeaa0-f2d9-4af2-96ae-563b89c9d9b3"><Br>
+<img width="179" alt="database things" src="https://github.com/Gurudutt-Goswami/Spotfire-Admin/assets/86184439/7aa30dbb-592c-4c40-8900-a7fac09b9c03"><br>
+<img width="533" alt="database things 2" src="https://github.com/Gurudutt-Goswami/Spotfire-Admin/assets/86184439/05a320fd-ade0-4702-b37d-35ea6b8cad71"><br>
 
 If you select to take detail from previous database then it will take information from bootstrap file.
 
@@ -59,13 +59,13 @@ You can find the ```nm setup.exe``` file server setup files
 3) After that you need to define the server name (ie., its FQDN (full qualified domain name) or you can server ip. <Br>
 <img width="502" alt="ports " src="https://github.com/Gurudutt-Goswami/Spotfire-Admin/assets/86184439/b67b7bd2-8a37-4205-9e2f-bf4affbe4839"> <br>
 4) Make sure network names are correct & then click on install
-<img width="680" alt="network names" src="https://github.com/Gurudutt-Goswami/Spotfire-Admin/assets/86184439/3a5dd81f-0024-4a45-b2d7-5f39224cbed6">
+<img width="680" alt="network names" src="https://github.com/Gurudutt-Goswami/Spotfire-Admin/assets/86184439/3a5dd81f-0024-4a45-b2d7-5f39224cbed6"><br>
 5) If this is a nm upgrade then open upgrade tool or else for the fresh setup you can exit.<br>
 <img width="484" alt="nm complete" src="https://github.com/Gurudutt-Goswami/Spotfire-Admin/assets/86184439/3694095d-cc65-4e01-80c4-a76bedd347a8"><br>
-6) Start node manager service
-7) Open Admin UI > Nodes & Services > Go to untrusted node tab (In this we will our recently installed nm)
-8) Select the node & click on trust.
-9) Now go to You Network > click on install new service
+6) Start node manager service<Br>
+7) Open Admin UI > Nodes & Services > Go to untrusted node tab (In this we will our recently installed nm)<br>
+8) Select the node & click on trust.<br>
+9) Now go to You Network > click on install new service<br>
 10) Under capability choose ```Web player```<br>
 <img width="604" alt="direct user" src="https://github.com/Gurudutt-Goswami/Spotfire-Admin/assets/86184439/3ed25344-9ba5-463c-9f4d-3db22f79f2d5">
 
