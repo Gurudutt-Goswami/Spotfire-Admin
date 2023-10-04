@@ -56,17 +56,17 @@ You can find the ```nm setup.exe``` file server setup files
 1) After accepting the license you need to set ports.
 2) If the Spotfire server machine & this nm setup machine is same change the port numbers.
 <img width="345" alt="node manager" src="https://github.com/Gurudutt-Goswami/Spotfire-Admin/assets/86184439/2dd43ea0-ff3f-48df-9c9f-eb1a67a3bb0e">  
-3) After that you need to define the server name (ie., its FQDN (full qualified domain name) or you can server ip.  
+3) After that you need to define the server name (ie., its FQDN (full qualified domain name) or you can server ip.
 <img width="502" alt="ports " src="https://github.com/Gurudutt-Goswami/Spotfire-Admin/assets/86184439/b67b7bd2-8a37-4205-9e2f-bf4affbe4839">
-5) Make sure network names are correct & then click on install
+4) Make sure network names are correct & then click on install
 <img width="680" alt="network names" src="https://github.com/Gurudutt-Goswami/Spotfire-Admin/assets/86184439/3a5dd81f-0024-4a45-b2d7-5f39224cbed6">
-6) If this is a nm upgrade then open upgrade tool or else for the fresh setup you can exit.
+5) If this is a nm upgrade then open upgrade tool or else for the fresh setup you can exit.
 <img width="484" alt="nm complete" src="https://github.com/Gurudutt-Goswami/Spotfire-Admin/assets/86184439/3694095d-cc65-4e01-80c4-a76bedd347a8">
-7) Start node manager service
-8) Open Admin UI > Nodes & Services > Go to untrusted node tab (In this we will our recently installed nm)
-9) Select the node & click on trust.
-10) Now go to You Network > click on install new service
-11) Under capability choose ```Web player```
+6) Start node manager service
+7) Open Admin UI > Nodes & Services > Go to untrusted node tab (In this we will our recently installed nm)
+8) Select the node & click on trust.
+9) Now go to You Network > click on install new service
+10) Under capability choose ```Web player```
 <img width="604" alt="direct user" src="https://github.com/Gurudutt-Goswami/Spotfire-Admin/assets/86184439/3ed25344-9ba5-463c-9f4d-3db22f79f2d5">
 
    
