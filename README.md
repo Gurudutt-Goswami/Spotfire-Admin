@@ -74,7 +74,7 @@ You can find the ```nm setup.exe``` file server setup files
 
 
 ### Spotfire Platform Edition Setup
-1) Server installation
+1) Server installation<br>
    a) Download product at edelivery.tibco.com<br>
    b) Install database & server<br>
       i) Go to scripts folder > mssql_install > create_database.bat > Edit<Br>
