@@ -72,6 +72,27 @@ You can find the ```nm setup.exe``` file server setup files
    
 
 
+
+### Spotfire Platform Edition Setup
+1) Server installation
+   a) Download product at edelivery.tibco.com<br>
+   b) Install database & server<br>
+      i) Go to scripts folder > mssql_install > create_database.bat > Edit<Br>
+      ii) Set following parameters <Br>
+      <img width="227" alt="parameters from database bat file" src="https://github.com/Gurudutt-Goswami/Spotfire-Admin/assets/86184439/e9020917-9c32-4e2b-8b48-87e9d721c941"><Br>
+      iii) Save this file & run this as admin<Br>
+      iv) Now open mssql & confirm whether the database is created or not<br>
+      v) Install server <Br>
+         a) Set NTLM Auth : Do not download option<br>
+         b) Make sure to check path & correct port numbers<br>   
+   c) Configuration<br>
+   Open configuration tool to setup bootstrap<br>
+      <img width="476" alt="configuration" src="https://github.com/Gurudutt-Goswami/Spotfire-Admin/assets/86184439/4a4971b7-3aeb-4028-a74d-89c648cf6aaa"><br>
+3) Server deployment
+4) Analyst installation
+5) Node manager installation
+
+
 ### LTS and Mainstream
 starting from Spotfire version 7.11, there are two types of Spotfire releases - mainstream and LTS (Long Term Support). Mainstream versions are released approximately every 1-2 months - LTS releases approximately every 12-18 months.<br>
 ```https://docs.tibco.com/pub/spotfire/general/LTS/spotfire_LTS_releases.htm```
