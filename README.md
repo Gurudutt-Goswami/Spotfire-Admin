@@ -67,8 +67,8 @@ You can find the ```nm setup.exe``` file server setup files
 8) Select the node & click on trust.<br>
 9) Now go to You Network > click on install new service<br>
 10) Under capability choose ```Web player```<br>
-<img width="604" alt="direct user" src="https://github.com/Gurudutt-Goswami/Spotfire-Admin/assets/86184439/3ed25344-9ba5-463c-9f4d-3db22f79f2d5">
-
+<img width="604" alt="direct user" src="https://github.com/Gurudutt-Goswami/Spotfire-Admin/assets/86184439/3ed25344-9ba5-463c-9f4d-3db22f79f2d5"><br>
+11) Click on install and start. You can follow the same process for automation services.
    
 
 
