@@ -1,4 +1,4 @@
-# Spotfire-Admin
+<img width="680" alt="network names" src="https://github.com/Gurudutt-Goswami/Spotfire-Admin/assets/86184439/fa8f319e-97db-4f31-921a-e1c8cafe7524"># Spotfire-Admin
 
 ### Spotfire Server Upgrade
 Tibco Spotfire Documentation
@@ -44,6 +44,32 @@ Once the upgrade is done the next step is to deploy the client package
 4) Click on Validate area to check any compatibility issue with the package.
 5) Click on Save area.
 Once its deployed try starting Spotfire client & change server port if required. Once it open up it will throw a pop to install/upgrade to your installed version.
+
+
+### Install & Configure Spotfire Node manager
+This node manager installations enables following things in Spotfire env.
+1) web player services
+2) Automation Services
+3) Terr services
+
+You can find the ```nm setup.exe``` file server setup files 
+1) After accepting the license you need to set ports.
+2) If the Spotfire server machine & this nm setup machine is same change the port numbers.
+<img width="345" alt="node manager" src="https://github.com/Gurudutt-Goswami/Spotfire-Admin/assets/86184439/2dd43ea0-ff3f-48df-9c9f-eb1a67a3bb0e">
+3) After that you need to define the server name (ie., its FQDN (full qualified domain name) or you can server ip.
+<img width="345" alt="node manager" src="https://github.com/Gurudutt-Goswami/Spotfire-Admin/assets/86184439/41fc388f-f96a-4b57-8cc5-8db23d0e5da5">
+4) Make sure network names are correct & then click on install
+<img width="680" alt="network names" src="https://github.com/Gurudutt-Goswami/Spotfire-Admin/assets/86184439/3a5dd81f-0024-4a45-b2d7-5f39224cbed6">
+5) If this is a nm upgrade then open upgrade tool or else for the fresh setup you can exit.
+<img width="484" alt="nm complete" src="https://github.com/Gurudutt-Goswami/Spotfire-Admin/assets/86184439/3694095d-cc65-4e01-80c4-a76bedd347a8">
+6) Start node manager service
+7) Open Admin UI > Nodes & Services > Go to untrusted node tab (In this we will our recently installed nm)
+8) Select the node & click on trust.
+9) Now go to You Network > click on install new service
+10) Under capability choose ```Web player```
+<img width="604" alt="direct user" src="https://github.com/Gurudutt-Goswami/Spotfire-Admin/assets/86184439/3ed25344-9ba5-463c-9f4d-3db22f79f2d5">
+
+   
 
 
 ### LTS and Mainstream
