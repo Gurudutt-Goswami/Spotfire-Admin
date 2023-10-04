@@ -88,6 +88,12 @@ You can find the ```nm setup.exe``` file server setup files
    c) Configuration<br>
    Open configuration tool to setup bootstrap<br>
       <img width="476" alt="configuration" src="https://github.com/Gurudutt-Goswami/Spotfire-Admin/assets/86184439/4a4971b7-3aeb-4028-a74d-89c648cf6aaa"><br>
+   Once the bootstrap configuration is done save the configuration in the database<br>
+   Go to services to start server & then start configure tibco spotfire server & as soon as you provide the password for the configuration tool you are done <br>
+   Now in administrator tab in configuration tool, add the user & promote it to admin<br>
+   Restart the server & login with your admin credential, ideally you should able to see all services.<br>
+   <img width="556" alt="services" src="https://github.com/Gurudutt-Goswami/Spotfire-Admin/assets/86184439/f6e84a77-206f-4b38-89c0-a1071850cac4">
+
 3) Server deployment
 4) Analyst installation
 5) Node manager installation
