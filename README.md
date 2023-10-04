@@ -60,13 +60,13 @@ You can find the ```nm setup.exe``` file server setup files
 <img width="502" alt="ports " src="https://github.com/Gurudutt-Goswami/Spotfire-Admin/assets/86184439/b67b7bd2-8a37-4205-9e2f-bf4affbe4839"> <br>
 4) Make sure network names are correct & then click on install
 <img width="680" alt="network names" src="https://github.com/Gurudutt-Goswami/Spotfire-Admin/assets/86184439/3a5dd81f-0024-4a45-b2d7-5f39224cbed6">
-5) If this is a nm upgrade then open upgrade tool or else for the fresh setup you can exit.
-<img width="484" alt="nm complete" src="https://github.com/Gurudutt-Goswami/Spotfire-Admin/assets/86184439/3694095d-cc65-4e01-80c4-a76bedd347a8">
+5) If this is a nm upgrade then open upgrade tool or else for the fresh setup you can exit.<br>
+<img width="484" alt="nm complete" src="https://github.com/Gurudutt-Goswami/Spotfire-Admin/assets/86184439/3694095d-cc65-4e01-80c4-a76bedd347a8"><br>
 6) Start node manager service
 7) Open Admin UI > Nodes & Services > Go to untrusted node tab (In this we will our recently installed nm)
 8) Select the node & click on trust.
 9) Now go to You Network > click on install new service
-10) Under capability choose ```Web player```
+10) Under capability choose ```Web player```<br>
 <img width="604" alt="direct user" src="https://github.com/Gurudutt-Goswami/Spotfire-Admin/assets/86184439/3ed25344-9ba5-463c-9f4d-3db22f79f2d5">
 
    
