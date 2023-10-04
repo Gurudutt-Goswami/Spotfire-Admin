@@ -73,4 +73,5 @@ You can find the ```nm setup.exe``` file server setup files
 
 
 ### LTS and Mainstream
-starting from Spotfire version 7.11, there are two types of Spotfire releases - mainstream and LTS (Long Term Support). Mainstream versions are released approximately every 1-2 months - LTS releases approximately every 12-18 months.
+starting from Spotfire version 7.11, there are two types of Spotfire releases - mainstream and LTS (Long Term Support). Mainstream versions are released approximately every 1-2 months - LTS releases approximately every 12-18 months.<br>
+```https://docs.tibco.com/pub/spotfire/general/LTS/spotfire_LTS_releases.htm```
