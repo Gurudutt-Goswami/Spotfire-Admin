@@ -54,7 +54,7 @@ This node manager installations enables following things in Spotfire env.
 
 You can find the ```nm setup.exe``` file server setup files 
 1) After accepting the license you need to set ports.
-2) If the Spotfire server machine & this nm setup machine is same change the port numbers.
+2) If the Spotfire server machine & this nm setup machine is same then change the port numbers.
 <img width="345" alt="node manager" src="https://github.com/Gurudutt-Goswami/Spotfire-Admin/assets/86184439/2dd43ea0-ff3f-48df-9c9f-eb1a67a3bb0e"> <br>
 3) After that you need to define the server name (ie., its FQDN (full qualified domain name) or you can server ip. <Br>
 <img width="502" alt="ports " src="https://github.com/Gurudutt-Goswami/Spotfire-Admin/assets/86184439/b67b7bd2-8a37-4205-9e2f-bf4affbe4839"> <br>
@@ -94,15 +94,27 @@ You can find the ```nm setup.exe``` file server setup files
    Restart the server & login with your admin credential, ideally you should able to see all services.<br>
    <img width="556" alt="services" src="https://github.com/Gurudutt-Goswami/Spotfire-Admin/assets/86184439/f6e84a77-206f-4b38-89c0-a1071850cac4">
 
-3) Server deployment<br>
+2) Server deployment<br>
    a) pre-requisite is to install spotfire server<Br>
    b) Login into Spotfire server to deploy packages ,add ones etc.<br>
    c) Go to ```Deployment and packages``` > click on add packages & browse ```(generally the .sdn file)```<br>
    d) After upload ```Validate area``` and then click on ```Save area```.<br>
    Note: This deployment area can be different for different groups.
-5) Analyst installation
-6) Node manager installation
 
+3) Analyst installation<br>
+   a) Download product from edelivery.tibco.com<br>
+   b) Install Spotfire Analyst<bR>
+   c) Launch Spotfire Analyst <Br>
+   Note: You get geoanalytics folder in analyst zip setup, you need to copy ```geoanalytics.part0.zip``` file & put it in the installation folder & then from library admin in spotfire you should create a folder & import this in order to use it.
+
+4) Node manager installation<br>
+In order to make available spotfire web player to users this step is important<Br>
+   a) pre-requisite is to install spotfire server<Br>
+   b) Run ```nm setup .exe``` file<br>
+   c) After setup is complete start nm from services<br>
+   d) Log in into server & go to nodes & services , click on untrusted node tab , check that node & trust it.
+   e) Once this is done create new web service from ```your network tab``` & do same for automation service 
+   f) Now after saving your dashboard in library you should be able to view it in web browser.
 
 ### LTS and Mainstream
 starting from Spotfire version 7.11, there are two types of Spotfire releases - mainstream and LTS (Long Term Support). Mainstream versions are released approximately every 1-2 months - LTS releases approximately every 12-18 months.<br>
